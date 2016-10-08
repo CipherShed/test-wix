@@ -1,7 +1,10 @@
-/*/*.vcproj.black7.root.user 
+/*/*.vcxproj.*.user 
 /*/Debug
 /*/Release
 /Debug
 /Release
 /*.ncb
 /*.suo
+/*.sdf
+/*.opensdf
+/Backup/
