@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -23,7 +24,7 @@
     <Compile Include="Product.wxs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\application\application.vcproj">
+    <ProjectReference Include="..\application\application.vcxproj">
       <Name>application</Name>
       <Project>{5e8c67a6-f3fa-47cb-8117-1d9e1da8145c}</Project>
       <Private>True</Private>
