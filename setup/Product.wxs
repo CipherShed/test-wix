@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
-	<Product Id="*" Name="setup" Language="1033" Version="1.0.0.0" Manufacturer="" UpgradeCode="1b2e08fb-90bc-4389-a234-a1bc03fe0383">
+	<Product Id="*" Name="setup" Language="1033" Version="1.0.0.0" Manufacturer="bob" UpgradeCode="1b2e08fb-90bc-4389-a234-a1bc03fe0383">
 		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
 
 		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
@@ -24,7 +24,7 @@
 			<!-- TODO: Remove the comments around this Component element and the ComponentRef below in order to add resources to this installer. -->
 			<Component Id="ProductComponent">
 				<!-- TODO: Insert files, registry keys, and other resources here. -->
-        <File Source="$(var.application.TargetPath)" />
+        <File Source="$(var.csapplication.TargetPath)" />
       </Component>
 		</ComponentGroup>
 	</Fragment>

@@ -23,9 +23,9 @@
     <Compile Include="Product.wxs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\application\application.vcproj">
-      <Name>application</Name>
-      <Project>{5e8c67a6-f3fa-47cb-8117-1d9e1da8145c}</Project>
+    <ProjectReference Include="..\csapplication\csapplication.csproj">
+      <Name>csapplication</Name>
+      <Project>{5434df63-46a9-433f-9347-eb081fb17bbf}</Project>
       <Private>True</Private>
       <DoNotHarvest>True</DoNotHarvest>
       <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>

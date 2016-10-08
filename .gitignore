@@ -1,7 +1,9 @@
-/*/*.vcproj.black7.root.user 
+/*/*.vcproj.*.user 
 /*/Debug
 /*/Release
 /Debug
 /Release
 /*.ncb
 /*.suo
+/*/bin
+/*/obj
