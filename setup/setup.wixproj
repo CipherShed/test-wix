@@ -23,7 +23,7 @@
     <Compile Include="Product.wxs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\application\application.vcproj">
+    <ProjectReference Include="C:\Users\Public\Desktop\projects\test-wix\application\application.vcproj">
       <Name>application</Name>
       <Project>{5e8c67a6-f3fa-47cb-8117-1d9e1da8145c}</Project>
       <Private>True</Private>
