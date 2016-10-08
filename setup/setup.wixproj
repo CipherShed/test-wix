@@ -26,7 +26,7 @@
     <ProjectReference Include="C:\Users\Public\Desktop\projects\test-wix\application\application.vcproj">
       <Name>application</Name>
       <Project>{5e8c67a6-f3fa-47cb-8117-1d9e1da8145c}</Project>
-      <Private>True</Private>
+      <Private>False</Private>
       <DoNotHarvest>True</DoNotHarvest>
       <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
       <RefTargetDir>INSTALLFOLDER</RefTargetDir>
