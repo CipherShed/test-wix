@@ -25,6 +25,7 @@
 			<Component Id="ProductComponent">
 				<!-- TODO: Insert files, registry keys, and other resources here. -->
         <File Source="$(var.csapplication.TargetPath)" />
+        <File Source="$(var.SolutionDir)\$(var.Configuration)\application.exe" />
       </Component>
 		</ComponentGroup>
 	</Fragment>
